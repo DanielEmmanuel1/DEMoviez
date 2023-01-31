@@ -1,0 +1,21 @@
+#app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
