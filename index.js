@@ -5,7 +5,7 @@ const moviesList = document.querySelector('#moviesList');
 if (searchInput && searchBtn && moviesList) {
   searchBtn.addEventListener('click', async () => {
     const searchTerm = searchInput.value;
-    const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=f32b07c54012b068e434f26d8a0495b1&query=${searchTerm}`);
+    const response = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=f32b07c54012b068e434f26d8a0495b1`);
     const data = await response.json();
     const movies = data.results;
   
